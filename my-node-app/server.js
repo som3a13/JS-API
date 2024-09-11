@@ -7,7 +7,7 @@ app.use(cors());  // Enable CORS for all origins
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send('Hello World!');
+    res.send('Hello World! On Platforms');
 });
 
 app.listen(port, () => {
